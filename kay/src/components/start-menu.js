@@ -25,7 +25,8 @@ export default function BasicMenu() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         >
-          Start
+           <img src='../../images/start-icon.png' alt='start menu icon'/>
+          <p>Start</p>
         </buttonUnstyledClasses>
         <Menu
           id="basic-menu"
@@ -40,24 +41,24 @@ export default function BasicMenu() {
           <img src='../../images/folders-icon.png' alt='folders icon'/>
           Folder
         </MenuItem>
-        <MenuItem onClick={handleClose} className="menuitem">
         <a href='https://twitter.com/seokayy' target='_blank' alt='Link to my twitter account'>
+        <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/twitter-icon.png' alt='twitter icon'/>
           Twitter
-        </a>
         </MenuItem>
-        <MenuItem onClick={handleClose} className="menuitem">
+        </a>
         <a href='https://www.linkedin.com/feed/' target='_blank' alt='link to my linkedin'>
+        <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/linkedin-icon.png' alt='linkedin icon'/>
           Linkedin
-        </a>
         </MenuItem>
-        <MenuItem onClick={handleClose} className="menuitem">
+        </a>
         <a href='https://github.com/kay0218' target='_blank' alt='Link to my github page'>
+        <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/github-icon.png' alt='github icon'/>
           Github
-        </a>
         </MenuItem>
+        </a>
         <MenuItem onClick={handleClose} className="menuitem bottommenuitem">
         <img src='../../images/log-out-icon.png' alt='log out icon'/>
           Log Out

@@ -64,4 +64,9 @@ a {
     margin-left: 40px;
 }
 
-
+button {
+    background: none;
+    border: none;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}

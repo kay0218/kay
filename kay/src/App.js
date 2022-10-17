@@ -1,9 +1,12 @@
+import KayLogo from './components/kay-logo';
 import classes from './stylesheets/stylesheet.css';
 import Nav from './ui/nav-bg';
+
 
 function App() {
   return (
     <div className="App">
+      <KayLogo />
       <Nav />
     </div>
   );

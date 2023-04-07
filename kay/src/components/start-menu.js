@@ -1,9 +1,7 @@
 import * as React from 'react';
-// import Button from '../../node_modules/@mui/base/ButtonUnstyled';
 import Menu from '../../node_modules/@mui/base/MenuUnstyled';
 import MenuItem from '../../node_modules/@mui/base/MenuItemUnstyled';
-
-import classes from './start-menu.modules.css';
+import '../ui/nav-bg.modules.scss';
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -24,6 +22,7 @@ export default function BasicMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+        cursor="pointer"
         >
            <img src='../../images/start-icon.png' alt='start menu icon'  id="icons"/>
           <p>Start</p>
@@ -41,19 +40,19 @@ export default function BasicMenu() {
           <img src='../../images/folders-icon.png' alt='folders icon' id="icons"/>
           Folder
         </MenuItem>
-        <a href='https://twitter.com/seokayy' target='_blank' alt='Link to my twitter account'>
+        <a href='https://twitter.com/seokayy' target='_blank' rel="noreferrer" alt='Link to my twitter account'>
         <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/twitter-icon.png' alt='twitter icon' id="icons"/>
           Twitter
         </MenuItem>
         </a>
-        <a href='https://www.linkedin.com/feed/' target='_blank' alt='link to my linkedin'>
+        <a href='https://www.linkedin.com/feed/' target='_blank' rel="noreferrer" alt='link to my linkedin'>
         <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/linkedin-icon.png' alt='linkedin icon' id="icons"/>
           Linkedin
         </MenuItem>
         </a>
-        <a href='https://github.com/kay0218' target='_blank' alt='Link to my github page'>
+        <a href='https://github.com/kay0218' target='_blank' rel="noreferrer" alt='Link to my github page'>
         <MenuItem onClick={handleClose} className="menuitem">
         <img src='../../images/github-icon.png' alt='github icon' id="icons"/>
           Github

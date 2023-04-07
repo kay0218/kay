@@ -1,13 +1,12 @@
 import React from "react";
-
-import classes from './kay-logo.modules.css';
+import './kay-logo.modules.css';
 
 
 function KayLogo() {
     return (
         <div>
-            <img src={require("../images/kay-logo.png")} className="kay-logo" />
-            <a target="_blank" href="https://open.spotify.com/track/6xLm5hdcUTmZPWUzPnQ9US?si=5ce1f4e897244863">
+            <img src={require("../images/kay-logo.png")} className="kay-logo" alt="site logo" />
+            <a target="_blank" rel="noreferrer" href="https://open.spotify.com/track/6xLm5hdcUTmZPWUzPnQ9US?si=5ce1f4e897244863">
                 <p className="intro">Intro</p>
             </a>
             <p className="kadijah">KADIJAH</p>

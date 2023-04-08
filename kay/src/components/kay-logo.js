@@ -1,5 +1,5 @@
 import React from "react";
-import './kay-logo.modules.css';
+import './kay-logo.modules.scss';
 
 
 function KayLogo() {

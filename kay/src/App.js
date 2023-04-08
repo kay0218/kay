@@ -1,6 +1,6 @@
 import DesktopIcons from './components/desktop-icons';
 import KayLogo from './components/kay-logo';
-import './stylesheets/stylesheet.css';
+import './stylesheets/stylesheet.scss';
 import Nav from './ui/nav-bg';
 
 

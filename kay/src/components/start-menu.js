@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Menu from '../../node_modules/@mui/base/MenuUnstyled';
 import MenuItem from '../../node_modules/@mui/base/MenuItemUnstyled';
-import '../ui/nav-bg.modules.scss';
+import '../ui/nav-bg.scss';
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);

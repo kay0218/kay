@@ -1,4 +1,4 @@
- import './nav-bg.modules.scss';
+ import './nav-bg.scss';
 import BasicMenu from '../components/start-menu';
 
  
@@ -6,7 +6,7 @@ function Nav() {
     return (
         <nav>
             <div class="nav-bg">
-                <BasicMenu cursor="pointer" />
+                <BasicMenu />
                 <buttonUnstyledClasses className="time-tab">11:26</buttonUnstyledClasses>
             </div>
         </nav>

@@ -40,10 +40,10 @@ export default function BasicMenu() {
           <img src='../../images/folders-icon.png' alt='folders icon' id="icons"/>
           Folder
         </MenuItem>
-        <a href='https://twitter.com/seokayy' target='_blank' rel="noreferrer" alt='Link to my twitter account'>
+        <a href='https://twitter.com/seokayy' target='_blank' rel="noreferrer" alt='Link to my X account'>
         <MenuItem onClick={handleClose} className="menuitem">
-        <img src='../../images/twitter-icon.png' alt='twitter icon' id="icons"/>
-          Twitter
+        <img src='../../images/x-twitter-icon.svg' alt='the new twitter icon' id="icons"/>
+          X
         </MenuItem>
         </a>
         <a href='https://www.linkedin.com/feed/' target='_blank' rel="noreferrer" alt='link to my linkedin'>

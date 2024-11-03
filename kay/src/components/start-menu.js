@@ -1,6 +1,5 @@
 import * as React from 'react';
-import Menu from '../../node_modules/@mui/base/MenuUnstyled';
-import MenuItem from '../../node_modules/@mui/base/MenuItemUnstyled';
+import { Menu, MenuItem } from '@mui/base';
 import '../ui/nav-bg.scss';
 
 export default function BasicMenu() {
@@ -15,7 +14,7 @@ export default function BasicMenu() {
 
   return (
     <div>
-        <buttonUnstyledClasses 
+        <button
         className="start-btn"
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
@@ -26,7 +25,7 @@ export default function BasicMenu() {
         >
            <img src='../../images/start-icon.png' alt='start menu icon'  id="icons"/>
           <p>Start</p>
-        </buttonUnstyledClasses>
+        </button>
         <Menu
           id="basic-menu"
           anchorEl={anchorEl}

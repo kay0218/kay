@@ -1,13 +1,16 @@
- import './nav-bg.scss';
+import '../stylesheets/nav-bg.scss';
 import BasicMenu from '../components/start-menu';
+import { ButtonUnstyled } from '@mui/core';
+
+
 
  
 function Nav() {
     return (
         <nav>
-            <div class="nav-bg">
+            <div className="nav-bg">
                 <BasicMenu />
-                <buttonUnstyledClasses className="time-tab">11:26</buttonUnstyledClasses>
+                <ButtonUnstyled className="time-tab">11:26</ButtonUnstyled>
             </div>
         </nav>
     );

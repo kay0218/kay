@@ -1,5 +1,5 @@
 import React from "react";
-import '../ui/nav-bg.scss';
+import '../stylesheets/nav-bg.scss';
 import AboutMeBox from "./about-me-box";
 
 
